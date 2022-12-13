@@ -1,0 +1,38 @@
+html {
+  background-color: darkgray;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 90vw;
+  margin: auto;
+}
+
+input.false,
+h3.false {
+  color: red;
+}
+
+input.true,
+h3.true {
+  color: green;
+}
+
+input {
+  font-size: 24px;
+  text-align: center;
+  background-color: black;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
